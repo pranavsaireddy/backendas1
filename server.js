@@ -10,7 +10,7 @@ const app = express();
 // Enhanced CORS Configuration
 const corsOptions = {
   origin: [
-    
+    "https://frontendas1.onrender.com",
     "http://localhost:3000/students" // For local development
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
